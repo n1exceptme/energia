@@ -6,8 +6,8 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
     stores: ['Energie_NRG', 'RadarDataSets'],
 
     views: [
-        'chart.Radar_NRG', 
-        'chart.Bar_NRG', 
+		'chart.Pie_NRG',
+		'chart.Area_NRG',
         'nrg.Grid_NRG',
         'nrg.Form_NRG'
     ],
@@ -22,7 +22,7 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
 
     init: function() {
 
-        this.loadStore();
+        //this.loadStore();
         
         this.control({
             'grid_nrg': {
@@ -34,14 +34,14 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
             'numberfield': {
                 change: this.changeField
             },
-            'bar_nrg': {
+            'area_nrg': {
                 afterrender: function (chart,o) {
                 
                     var series = chart.series.getAt(0);
                     series.listeners = {
                         itemmouseup: function(item) {                            
                            
-                            var series = Ext.ComponentQuery.query('bar_nrg')[0].series.get(0);
+                            var series = Ext.ComponentQuery.query('area_nrg')[0].series.get(0);
                             var index = Ext.Array.indexOf(series.items, item);
                             var selectionModel = Ext.ComponentQuery.query('grid')[0].getSelectionModel();
                      
@@ -55,7 +55,7 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
         });    
     },
 
-    loadStore: function(){
+/*     loadStore: function(){
       
         var store = this.getEnergie_NRGStore();
         
@@ -102,7 +102,7 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
         }
 
         store.loadData(myData);
-    },
+    }, */
 
     selectionchange: function(model, records){
         
@@ -117,7 +117,7 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
                 form = this.getForm_NRG().getForm();
                 fields = form.getFields();
                 fields.each(function(field){
-                    if (field.name != 'company') {
+                    if (field.name != 'data') {
                         field.setDisabled(false);
                     }
                 });
@@ -138,7 +138,7 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
             });
 
             fields.each(function(field){
-                if (field.name != 'company') {
+                if (field.name != 'data') {
                     field.setDisabled(false);
                 }
             });
@@ -147,20 +147,20 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
 
     updateRecord: function(rec) {
         var name, series, i, l, items, json = [{
-            'Name': 'Price',
-            'Data': rec.get('price')
+            'Name': 'PUN (bl)',
+            'Data': rec.get('pun_medio')
         }, {
-            'Name': 'Revenue %',
-            'Data': rec.get('revenue %')
+            'Name': 'F1 (prel. mens.) %',
+            'Data': rec.get('f1_prelievo')
         }, {
-            'Name': 'Growth %',
-            'Data': rec.get('growth %')
+            'Name': 'F2 (prel. mens.) %',
+            'Data': rec.get('f2_prelievo')
         }, {
-            'Name': 'Product %',
-            'Data': rec.get('product %')
+            'Name': 'F3 (prel. mens.) %',
+            'Data': rec.get('f3_prelievo')
         }, {
-            'Name': 'Market %',
-            'Data': rec.get('market %')
+            'Name': 'Mese (prel. annuo) %',
+            'Data': rec.get('mese_prelievo_anno')
         }];
 
         var store = this.getRadarDataSetsStore();
@@ -170,15 +170,15 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
 
     selectItem: function(storeItem) {
 
-        var name = storeItem.data.company;//storeItem.get('company'),
-        var series = Ext.ComponentQuery.query('bar_nrg')[0].series.get(0);
+        var name = storeItem.get('pun_medio');//storeItem.get('pun_medio'),
+        var series = Ext.ComponentQuery.query('area_nrg')[0].series.get(0);
         var i, items, l;
         
         series.highlight = true;
         series.unHighlightItem();
         series.cleanHighlights();
         for (i = 0, items = series.items, l = items.length; i < l; i++) {
-            if (name == items[i].storeItem.get('company')) {
+            if (name == items[i].storeItem.get('pun_medio')) {
                 selectedStoreItem = items[i].storeItem;
                 series.highlightItem(items[i]);
                 break;
@@ -210,7 +210,7 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
         return function() {
             clearTimeout(timer);
 
-            var series = Ext.ComponentQuery.query('bar_nrg')[0].series.get(0);
+            var series = Ext.ComponentQuery.query('area_nrg')[0].series.get(0);
             var index = Ext.Array.indexOf(series.items, item);
             var selectionModel = Ext.ComponentQuery.query('grid')[0].getSelectionModel();
             var selectedStoreItem = item.storeItem; 

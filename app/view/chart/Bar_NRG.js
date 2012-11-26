@@ -9,18 +9,18 @@ Ext.define('ExtNRG.view.chart.Bar_NRG', {
     axes: [{
         type: 'Numeric',
         position: 'left',
-        fields: ['price'],
+        fields: ['pun_medio'],
         minimum: 0,
         hidden: true
     }, {
         type: 'Category',
         position: 'bottom',
-        fields: ['company'],
+        fields: ['id'],
         label: {
             renderer: function(v) {
                 return Ext.String.ellipsis(v, 15, false);
             },
-            font: '9px Arial',
+            font: '7px Arial',
             rotate: {
                 degrees: 270
             }
@@ -39,12 +39,12 @@ Ext.define('ExtNRG.view.chart.Bar_NRG', {
         label: {
             contrast: true,
             display: 'insideEnd',
-            field: 'price',
+            field: 'pun_medio',
             color: '#000',
             orientation: 'vertical',
             'text-anchor': 'middle'
         },
-        xField: 'name',
-        yField: ['price']
+        xField: 'id',
+        yField: ['pun_medio']
     }]        
 });    

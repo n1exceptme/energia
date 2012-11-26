@@ -10,20 +10,25 @@ Ext.define('ExtNRG.store.RadarDataSets', {
     },
 
     data: [
-    {
-        'Name': 'Price',
-        'Data': 100
-    }, {
-        'Name': 'Revenue %',
-        'Data': 100
-    }, {
-        'Name': 'Growth %',
-        'Data': 100
-    }, {
-        'Name': 'Product %',
-        'Data': 100
-    }, {
-        'Name': 'Market %',
-        'Data': 100
-    }]
+		// {
+			// 'Name': 'pun_medio',
+			// 'Data': 100
+		// }, 
+		{
+			'Name': 'f1_prelievo',
+			'Data': 100
+		}, 
+		{
+			'Name': 'f2_prelievo',
+			'Data': 100
+		}, 
+		{
+			'Name': 'f3_prelievo',
+			'Data': 100
+		}, 
+/* 		{
+			'Name': 'mese_prelievo_anno',
+			'Data': 100
+		}	 */
+	]
 });

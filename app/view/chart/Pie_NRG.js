@@ -10,7 +10,8 @@ Ext.define('ExtNRG.view.chart.Pie_NRG', {
 	shadow: false,
 
 	legend: {
-		position: 'right'
+		position: 'bottom',
+		labelFont : '9px Helvetica, sans-serif'
 	},	
 	
 	insetPadding: 60,
@@ -18,25 +19,22 @@ Ext.define('ExtNRG.view.chart.Pie_NRG', {
 	
     series: [
 		{
-		type: 'pie',
-		field: 'Data',
-		showInLegend: true,
-		donut: false,
-		tips: {
-		  trackMouse: true,
-		  width: 140,
-		  height: 28
-		  // ,
-		  // renderer: function(storeItem, item) {
-			////calculate percentage.
-			// var store1 = getRadarDataSetsStore();
-			// var total = 0;
-			// store1.each(function(rec) {
-				// total += rec.get('Data');
-			// });
-			// this.setTitle(storeItem.get('Name') + ': ' + Math.round(storeItem.get('Data') / total * 100) + '%');
-		  // }
-		},
+        type: 'pie',
+        angleField: 'Data',
+        showInLegend: true,
+        tips: {
+            trackMouse: true,
+            width: 140,
+            height: 28,
+            renderer: function(storeItem, item) {
+                // calculate and display percentage on hover
+                var total = 0;
+                store.each(function(rec) {
+                    total += rec.get('Data');
+                });
+                this.setTitle(storeItem.get('Name') + ': ' + Math.round(storeItem.get('Data') / total * 100) + '%');
+            }
+        },
 		highlight: {
 		  segment: {
 			margin: 20

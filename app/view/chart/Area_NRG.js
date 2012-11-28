@@ -13,8 +13,7 @@ Ext.define('ExtNRG.view.chart.Area_NRG', {
 			type: 'Numeric',
 			grid: true,
 			position: 'left',
-			fields: ['f1_medio','f2_medio','f3_medio'],
-			title: 'Grafico Mensile',
+			fields: ['f1_mensile','f2_mensile','f3_mensile'],
 			grid: {
 				odd: {
 					opacity: 1,
@@ -30,7 +29,7 @@ Ext.define('ExtNRG.view.chart.Area_NRG', {
 			type: 'Category',
 			position: 'bottom',
 			fields: ['data'],
-			title: 'Mese dell\'anno',
+			title: 'Baseload come somma dei contributi di ciascuna fascia',
 			grid: true,
 			label: {
 				rotate: {
@@ -45,7 +44,7 @@ Ext.define('ExtNRG.view.chart.Area_NRG', {
 		highlight: true,
 		axis: 'left',
 		xField: 'data',
-		yField: ['f1_medio','f2_medio','f3_medio'],
+		yField: ['f1_mensile','f2_mensile','f3_mensile'],
 		style: {
 			opacity: 0.93
 		}

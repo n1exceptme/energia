@@ -6,6 +6,8 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
     flex: 0.60,
     store: 'Energie_NRG',
     title:'Mercato Energetico: dati mensili',
+
+	sortableColumns: false,
 	
 	features: [
 		{
@@ -38,9 +40,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					type: 'int',
 					hidden: true,
 					menuDisabled: true,
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 					}
@@ -49,9 +51,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'Anno',
 					dataIndex: 'anno',
 					type: 'int',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 					}
@@ -60,9 +62,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'Mese',
 					dataIndex: 'mese',
 					type: 'int',
-					width:110, 
+					width:60, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 						},
@@ -76,21 +78,21 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					dataIndex: 'data',
 					type: 'string',
 					hidden: true,
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'string'
 					}
 					},
-					{
+/* 					{
 					text: 'F1',
 					dataIndex: 'f1',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
 					hidden: true,
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 					}
@@ -99,9 +101,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F2',
 					dataIndex: 'f2',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
@@ -111,9 +113,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F3',
 					dataIndex: 'f3',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
@@ -123,9 +125,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F1/ore',
 					dataIndex: 'f1_ore',
 					type: 'int',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
@@ -135,9 +137,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F2/ore',
 					dataIndex: 'f2_ore',
 					type: 'int',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
@@ -147,21 +149,21 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F3/ore',
 					dataIndex: 'f3_ore',
 					type: 'int',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
 					}
-					},
+					}, */
 					{
 					text: 'F1/Medio',
 					dataIndex: 'f1_medio',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 					}
@@ -170,9 +172,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F2/Medio',
 					dataIndex: 'f2_medio',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 					}
@@ -181,9 +183,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F3/Medio',
 					dataIndex: 'f3_medio',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 					}
@@ -192,9 +194,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'PUN',
 					dataIndex: 'pun',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
@@ -204,32 +206,32 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'PUN/ore',
 					dataIndex: 'pun_ore',
 					type: 'int',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
 					}
 					},
 					{
-					text: 'PUN/medio<br>(Baseload)',
+					text: 'PUN/medio<br>Baseload',
 					dataIndex: 'pun_medio',
 					type: 'float',
-					width:110, 
+					width:60, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 					}
 					},
-					{
+/* 					{
 					text: 'F1<br>Ill.Pubb.',
 					dataIndex: 'f1_ip',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
@@ -239,9 +241,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F2<br>Ill.Pubb.',
 					dataIndex: 'f2_ip',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
@@ -251,9 +253,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F3<br>Ill.Pubb.',
 					dataIndex: 'f3_ip',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
@@ -263,9 +265,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F1/ore<br>Ill.Pubb.',
 					dataIndex: 'f1_ore_ip',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
@@ -275,9 +277,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F1/ore<br>Ill.Pubb.',
 					dataIndex: 'f2_ore_ip',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
@@ -287,21 +289,21 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F3/ore<br>Ill.Pubb.',
 					dataIndex: 'f3_ore_ip',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
 					}
-					},
+					}, */
 					{
 					text: 'F1/medio<br>Ill.Pubb.',
 					dataIndex: 'f1_medio_ip',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 					}
@@ -310,9 +312,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F2/medio<br>Ill.Pubb.',
 					dataIndex: 'f2_medio_ip',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 					}
@@ -321,9 +323,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F3/medio<br>Ill.Pubb.',
 					dataIndex: 'f3_medio_ip',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 					}
@@ -332,9 +334,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'PUN<br>Ill.Pubb.',
 					dataIndex: 'pun_ip',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
@@ -344,9 +346,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'PUN/ore<br>Ill.Pubb.',
 					dataIndex: 'pun_ore_ip',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					hidden: true,
 					filter: {
 						type: 'numeric'
@@ -356,9 +358,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'PUN/medio<br>Ill.Pubb.',
 					dataIndex: 'pun_medio_ip',
 					type: 'float',
-					width:110, 
+					width:55, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 					}
@@ -367,9 +369,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F1/prelievo',
 					dataIndex: 'f1_prelievo',
 					type: 'float',
-					width:110, 
+					width:65, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 						},
@@ -379,9 +381,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F2/prelievo',
 					dataIndex: 'f2_prelievo',
 					type: 'float',
-					width:110, 
+					width:65, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 						},
@@ -391,21 +393,21 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					text: 'F3/prelievo',
 					dataIndex: 'f3_prelievo',
 					type: 'float',
-					width:110, 
+					width:65, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 						},
 					renderer: this.perc
 					},
 					{
-					text: '% prelievo<br>(mese/anno)',
+					text: '% prelievo<br>mese/anno',
 					dataIndex: 'mese_prelievo_anno',
 					type: 'float',
-					width:110, 
+					width:65, 
 					align:'center',
-					sortable: true,
+					//sortable: false,
 					filter: {
 						type: 'numeric'
 						},

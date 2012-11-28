@@ -68,7 +68,7 @@ if (is_array($filters)) {
     $where .= $qs;
 }
 
-	$queryString = "SELECT * FROM energia_mensile WHERE ".$where;
+	$queryString = "SELECT * FROM energia_mensile2 WHERE ".$where;
 	$queryString .= " ORDER BY anno, mese";//.$sortProperty." ".$sortDirection;
 	$queryString .= " LIMIT ".$start.",".$limit;
 
@@ -78,7 +78,7 @@ if (is_array($filters)) {
 	$query = mysql_query($queryString) or die(mysql_error());
 	
 	//determina il numero di record restituiti dalla query
-	$count = mysql_query("SELECT COUNT(*) FROM energia_mensile WHERE ". $where );
+	$count = mysql_query("SELECT COUNT(*) FROM energia_mensile2 WHERE ". $where );
 	$total = mysql_fetch_array($count);
 	$numrecords = $total[0];
 	

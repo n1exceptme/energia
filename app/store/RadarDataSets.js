@@ -10,10 +10,10 @@ Ext.define('ExtNRG.store.RadarDataSets', {
     },
 
     data: [
-		// {
-			// 'Name': 'pun_medio',
-			// 'Data': 100
-		// }, 
+		{
+			'Name': 'pun_medio',
+			'Data': 100
+		}, 
 		{
 			'Name': 'f1_prelievo',
 			'Data': 100
@@ -26,9 +26,9 @@ Ext.define('ExtNRG.store.RadarDataSets', {
 			'Name': 'f3_prelievo',
 			'Data': 100
 		}, 
-/* 		{
+ 		{
 			'Name': 'mese_prelievo_anno',
 			'Data': 100
-		}	 */
+		}
 	]
 });

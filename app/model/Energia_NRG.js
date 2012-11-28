@@ -17,7 +17,7 @@ Ext.define('ExtNRG.model.Energia_NRG', {
 			name: 'data',
 			type: 'string'
 			},
-			{
+/*			{
 			name: 'f1',
 			type: 'float'
 			},
@@ -41,7 +41,7 @@ Ext.define('ExtNRG.model.Energia_NRG', {
 			name: 'f3_ore',
 			type: 'int'
 			},
-			{
+*/			{
 			name: 'f1_medio',
 			type: 'float'
 			},
@@ -53,7 +53,7 @@ Ext.define('ExtNRG.model.Energia_NRG', {
 			name: 'f3_medio',
 			type: 'float'
 			},
-			{
+ 			{
 			name: 'pun',
 			type: 'float'
 			},
@@ -61,11 +61,23 @@ Ext.define('ExtNRG.model.Energia_NRG', {
 			name: 'pun_ore',
 			type: 'int'
 			},
+ 			{
+			name: 'f1_mensile',
+			type: 'float'
+			},
+			{
+			name: 'f2_mensile',
+			type: 'float'
+			},
+			{
+			name: 'f3_mensile',
+			type: 'float'
+			},			
 			{
 			name: 'pun_medio',
 			type: 'float'
 			},
-			{
+/* 			{
 			name: 'f1_ip',
 			type: 'float'
 			},
@@ -88,7 +100,7 @@ Ext.define('ExtNRG.model.Energia_NRG', {
 			{
 			name: 'f3_ore_ip',
 			type: 'float'
-			},
+			}, */
 			{
 			name: 'f1_medio_ip',
 			type: 'float'

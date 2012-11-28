@@ -28,16 +28,34 @@ Ext.define('ExtNRG.view.nrg.Form_NRG', {
         {
         
         layout: {type: 'hbox', align: 'stretch'},
-        flex: 3,
+        flex: 4,
         border: false,
         bodyStyle: 'background-color: transparent',
         
         items: [
 			{
-            xtype: 'grid_nrg'
+			xtype: 'tabpanel',
+			items: [
+				{
+				xtype: 'grid_nrg'
+				},
+				{
+				xtype: 'container',
+				itemId: 'mycontainer5',
+				items: [
+					{
+						xtype: 'image',
+						html: '<div id="header"><h2>Catholic News</h2></div>',
+						itemId: 'myimage1',
+						src: 'localhost/'
+					}
+				]              			
+				}
+				]
 			},
 			{
-            flex: 0.4,
+			xtype: 'tabpanel',
+            flex: 0.35,
             layout: {
                 type: 'vbox',
                 align:'stretch'
@@ -46,10 +64,9 @@ Ext.define('ExtNRG.view.nrg.Form_NRG', {
             title: 'Andamento Dettagliato',
             items: [
 					{
-					margin: '5',
-					xtype: 'fieldset',
-					flex: 1,
 					title:'Offset',
+					margin: '5',
+					flex: 1,
 					defaults: {
 						width: 240,
 						labelWidth: 90,
@@ -105,17 +122,33 @@ Ext.define('ExtNRG.view.nrg.Form_NRG', {
 					]
 				}, 
 				{
+				title:'Pie Chart',
 				xtype:'pie_nrg'
+				}, 
+				{
+				title: 'Radar Chart',
+				xtype:'radar_nrg'
 				}
 			]
         }]
     },
 	{
-		height: 200,
+		xtype: 'tabpanel',
+		height: 330,
 		layout: 'fit',
 		margin: '0 0 3 0',
 		items: [
-			{ xtype: 'area_nrg'}
+			{
+			title: 'Area Chart',
+			xtype: 'area_nrg'
+			},
+			{ 
+			title: 'Bar Chart',
+			xtype: 'bar_nrg'
+			},
+			{
+			title: 'Altro'
+			}
 			]
 	}
 	]

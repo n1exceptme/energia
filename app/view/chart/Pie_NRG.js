@@ -9,10 +9,10 @@ Ext.define('ExtNRG.view.chart.Pie_NRG', {
     store: 'RadarDataSets',
 	shadow: false,
 
-	legend: {
-		position: 'bottom',
-		labelFont : '9px Helvetica, sans-serif'
-	},	
+/* 	legend: {
+		position: 'right',
+		labelFont : '12px Arial'
+	},	 */
 	
 	insetPadding: 60,
 	theme: 'Base:gradients',	
@@ -22,19 +22,19 @@ Ext.define('ExtNRG.view.chart.Pie_NRG', {
         type: 'pie',
         angleField: 'Data',
         showInLegend: true,
-        tips: {
-            trackMouse: true,
-            width: 140,
-            height: 28,
-            renderer: function(storeItem, item) {
-                // calculate and display percentage on hover
-                var total = 0;
-                store.each(function(rec) {
-                    total += rec.get('Data');
-                });
-                this.setTitle(storeItem.get('Name') + ': ' + Math.round(storeItem.get('Data') / total * 100) + '%');
-            }
-        },
+        // tips: {
+            // trackMouse: true,
+            // width: 140,
+            // height: 28,
+            // renderer: function(storeItem, item) {
+                ////calculate and display percentage on hover
+                // var total = 0;
+                // store.each(function(rec) {
+                    // total += rec.get('Data');
+                // });
+                // this.setTitle(storeItem.get('Name') + ': ' + Math.round(storeItem.get('Data') / total * 100) + '%');
+            // }
+        //},
 		highlight: {
 		  segment: {
 			margin: 20
@@ -44,7 +44,7 @@ Ext.define('ExtNRG.view.chart.Pie_NRG', {
 			field: 'Name',
 			display: 'rotate',
 			contrast: true,
-			font: '9px Arial'
+			font: '12px Arial'
 		}
 		}
 	]

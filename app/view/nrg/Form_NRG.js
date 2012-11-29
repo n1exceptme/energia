@@ -34,24 +34,7 @@ Ext.define('ExtNRG.view.nrg.Form_NRG', {
         
         items: [
 			{
-			xtype: 'tabpanel',
-			items: [
-				{
-				xtype: 'grid_nrg'
-				},
-				{
-				xtype: 'container',
-				itemId: 'mycontainer5',
-				items: [
-					{
-						xtype: 'image',
-						html: '<div id="header"><h2>Catholic News</h2></div>',
-						itemId: 'myimage1',
-						src: 'localhost/'
-					}
-				]              			
-				}
-				]
+			xtype: 'grid_nrg'
 			},
 			{
 			xtype: 'tabpanel',
@@ -120,7 +103,7 @@ Ext.define('ExtNRG.view.nrg.Form_NRG', {
 						maxLength: 5
 						}
 					]
-				}, 
+				},
 				{
 				title:'Pie Chart',
 				xtype:'pie_nrg'
@@ -128,7 +111,57 @@ Ext.define('ExtNRG.view.nrg.Form_NRG', {
 				{
 				title: 'Radar Chart',
 				xtype:'radar_nrg'
-				}
+				},
+				{
+				title: 'Fasce Mercato',
+				xtype: 'panel',
+				id: 'italia',
+				rbar: [
+					{
+					itemId: 'occ',
+					align: 'left',
+					text: 'Occidentale',
+					//tooltip: 'Button 1',
+					width: 90,
+					border: 1,
+					style: {
+						borderColor: 'gray'
+						},
+					handler: function(){
+						Ext.getCmp('italia').body.update('<img src="/energia/fasce_mercato_elettrico/fascia_occidentale.png" style="max-width:100%;max-height:100%"; />');
+						}
+					},
+					'-',
+					{
+					itemId: 'cen',
+					text: 'Centrale',
+					align: 'right',
+					width: 90,
+					border: 1,
+					style: {
+						borderColor: 'gray'
+						},
+					handler: function(){
+						Ext.getCmp('italia').body.update('<img src="/energia/fasce_mercato_elettrico/fascia_centrale.png" style="max-width:100%;max-height:100%"; />');
+						}
+					},
+					'-',
+					{
+					itemId: 'ori',
+					text: 'Orientale',
+					align: 'center',
+					width: 90,
+					border: 1,
+					style: {
+						borderColor: 'gray'
+						},
+					handler: function(){
+						Ext.getCmp('italia').body.update('<img src="/energia/fasce_mercato_elettrico/fascia_orientale.png" style="max-width:100%;max-height:100%"; />');
+						}
+					}
+				],
+				html: '<img src="/energia/fasce_mercato_elettrico/Italian_regions_colored.svg.png" style="max-width:100%;max-height:100%"; />'
+				}				
 			]
         }]
     },

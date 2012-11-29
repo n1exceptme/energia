@@ -1738,3 +1738,771 @@
  where :  0 = 0 
  qs : 
 
+-----------2012-11-29 08:58:36-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 08:59:16-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 08:59:53-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 09:00:53-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 09:22:46-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 09:25:16-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 09:26:21-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 09:27:02-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 09:29:28-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 09:30:45-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 09:32:10-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 09:35:33-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 09:45:02-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 09:46:05-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 09:48:07-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 10:42:44-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 10:52:22-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 10:53:05-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 10:54:47-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:00:31-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:01:38-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:02:08-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:06:25-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:06:49-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:07:19-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:08:30-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:08:55-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:09:14-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:10:42-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:39:35-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:40:03-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:43:44-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:45:07-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:46:59-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:53:11-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:53:57-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:56:16-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:57:28-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:58:08-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:58:35-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 11:59:24-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:00:40-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:00:58-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:09:12-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:14:14-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:15:00-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:16:48-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:18:03-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:18:26-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:18:54-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:19:18-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:19:39-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:20:54-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:22:36-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:24:32-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:25:29-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 12:38:36-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 13:17:09-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 13:19:34-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 13:25:00-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 13:26:40-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 13:27:41-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 13:28:08-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+
+-----------2012-11-29 13:28:57-----------
+ queryString : SELECT * FROM energia_mensile2 WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+

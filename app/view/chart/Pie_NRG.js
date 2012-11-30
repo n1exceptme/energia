@@ -51,8 +51,8 @@ Ext.define('ExtNRG.view.chart.Pie_NRG', {
 			field: 'Name',
 			display: 'rotate',
 			contrast: true,
-			font: '12px Arial'
-		}
+			font: '12px Arial Black'
+    		}
 		}
 	]
 });

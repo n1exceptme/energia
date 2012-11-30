@@ -1,7 +1,19 @@
+var filtersCfg = {
+    ftype: 'filters',
+    encode: true,
+	local: false,
+	updateBuffer: 1000
+};
+
+
 Ext.define('ExtNRG.view.nrg.Grid_NRG', {
     extend: 'Ext.grid.Panel',
     alias : 'widget.grid_nrg',
 
+    requires: [
+		'Ext.ux.grid.FiltersFeature'
+	],		
+	
     id: 'energie-form',
     flex: 0.60,
     store: 'Energie_NRG',
@@ -10,8 +22,9 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 	sortableColumns: false,
 	
 	features: [
+		filtersCfg,
 		{
-		id: 'group',
+		id: 'nrg_grouping',
 		ftype: 'groupingsummary',
 		groupHeaderTpl: 'Anno Consumi: {name}',
 		hideGroupedHeader: true,
@@ -48,6 +61,21 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					}
 					},
 					{
+					xtype: 'datecolumn',
+					format:'M',
+					text: 'Mese',
+					dataIndex: 'data_nrg',
+					width: 50,
+					align: 'center',
+					filter: {
+						type: 'date'
+						},
+					summaryType: 'count',
+					summaryRenderer: function(value, summaryData, dataIndex) {
+						return ((value === 0 || value > 1) ? value + ' Mesi' : '1 Mese');
+					}						
+					},					
+					{
 					text: 'Anno',
 					dataIndex: 'anno',
 					type: 'int',
@@ -58,7 +86,7 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 						type: 'numeric'
 					}
 					},
-					{
+/* 					{
 					text: 'Mese',
 					dataIndex: 'mese',
 					type: 'int',
@@ -72,7 +100,7 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 					summaryRenderer: function(value, summaryData, dataIndex) {
 						return ((value === 0 || value > 1) ? value + ' Mesi' : '1 Mese');
 					}							
-					},
+					}, 
 					{
 					text: 'Data',
 					dataIndex: 'data',
@@ -85,7 +113,7 @@ Ext.define('ExtNRG.view.nrg.Grid_NRG', {
 						type: 'string'
 					}
 					},
-/* 					{
+ 					{
 					text: 'F1',
 					dataIndex: 'f1',
 					type: 'float',

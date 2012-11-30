@@ -28,7 +28,7 @@ Ext.define('ExtNRG.view.chart.Area_NRG', {
 		{
 			type: 'Category',
 			position: 'bottom',
-			fields: ['data'],
+			fields: ['mese'],
 			title: 'Baseload come somma dei contributi di ciascuna fascia',
 			grid: true,
 			label: {
@@ -43,7 +43,7 @@ Ext.define('ExtNRG.view.chart.Area_NRG', {
 		type: 'area',
 		highlight: true,
 		axis: 'left',
-		xField: 'data',
+		xField: 'data_nrg',
 		yField: ['f1_mensile','f2_mensile','f3_mensile'],
 		style: {
 			opacity: 0.93

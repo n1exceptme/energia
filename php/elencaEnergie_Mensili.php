@@ -75,7 +75,7 @@ if (is_array($filters)) {
     $where .= $qs;
 }
 
-	$queryString = "SELECT * FROM energia_mensile2_centrale WHERE ".$where;
+	$queryString = "SELECT * FROM energia_mensile2_" . $regione . " WHERE ".$where;
 	$queryString .= " ORDER BY anno, mese";//.$sortProperty." ".$sortDirection;
 	$queryString .= " LIMIT ".$start.",".$limit;
 

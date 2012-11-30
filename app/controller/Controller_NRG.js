@@ -148,22 +148,28 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
     },
 
     updateRecord: function(rec) {
-        var name, series, i, l, items, json = [{
+        var name, series, i, l, items, json = [
+/* 		{
             'Name': 'PUN (bl)',
             'Data': rec.get('pun_medio')
-        }, {
+        },  */
+		{
             'Name': 'F1 (prel. mens.) %',
             'Data': rec.get('f1_prelievo')
-        }, {
+        }, 
+		{
             'Name': 'F2 (prel. mens.) %',
             'Data': rec.get('f2_prelievo')
-        }, {
+        }, 
+		{
             'Name': 'F3 (prel. mens.) %',
             'Data': rec.get('f3_prelievo')
-        }, {
+        }, 
+/* 		{
             'Name': 'Mese (prel. annuo) %',
             'Data': rec.get('mese_prelievo_anno')
-        }];
+        } */
+		];
 
         var store = this.getRadarDataSetsStore();
         store.loadData(json);

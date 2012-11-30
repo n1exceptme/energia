@@ -238,3 +238,731 @@
  qs : 
  regione : orientale
 
+-----------2012-11-30 10:50:46-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 10:50:53-----------
+ queryString : SELECT * FROM energia_mensile2_orientale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 95
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : orientale
+
+-----------2012-11-30 10:52:27-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 10:52:39-----------
+ queryString : SELECT * FROM energia_mensile2_orientale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 95
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : orientale
+
+-----------2012-11-30 10:54:28-----------
+ queryString : SELECT * FROM energia_mensile2_occidentale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 92
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : occidentale
+
+-----------2012-11-30 10:54:35-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 10:54:38-----------
+ queryString : SELECT * FROM energia_mensile2_orientale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 95
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : orientale
+
+-----------2012-11-30 10:54:50-----------
+ queryString : SELECT * FROM energia_mensile2_occidentale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 92
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : occidentale
+
+-----------2012-11-30 10:54:56-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 10:56:03-----------
+ queryString : SELECT * FROM energia_mensile2_occidentale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 92
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : occidentale
+
+-----------2012-11-30 10:56:07-----------
+ queryString : SELECT * FROM energia_mensile2_orientale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 95
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : orientale
+
+-----------2012-11-30 10:56:08-----------
+ queryString : SELECT * FROM energia_mensile2_orientale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 95
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : orientale
+
+-----------2012-11-30 10:56:24-----------
+ queryString : SELECT * FROM energia_mensile2_orientale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 95
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : orientale
+
+-----------2012-11-30 10:56:32-----------
+ queryString : SELECT * FROM energia_mensile2_orientale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 95
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : orientale
+
+-----------2012-11-30 10:56:36-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 10:56:39-----------
+ queryString : SELECT * FROM energia_mensile2_occidentale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 92
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : occidentale
+
+-----------2012-11-30 10:57:12-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 10:57:22-----------
+ queryString : SELECT * FROM energia_mensile2_orientale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 95
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : orientale
+
+-----------2012-11-30 10:57:26-----------
+ queryString : SELECT * FROM energia_mensile2_occidentale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 92
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : occidentale
+
+-----------2012-11-30 10:57:29-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 10:57:32-----------
+ queryString : SELECT * FROM energia_mensile2_occidentale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 92
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : occidentale
+
+-----------2012-11-30 10:57:34-----------
+ queryString : SELECT * FROM energia_mensile2_orientale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 95
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : orientale
+
+-----------2012-11-30 10:58:42-----------
+ queryString : SELECT * FROM energia_mensile2_occidentale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 92
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : occidentale
+
+-----------2012-11-30 10:58:45-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 11:38:21-----------
+ queryString : SELECT * FROM energia_mensile2_orientale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 95
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : orientale
+
+-----------2012-11-30 11:48:42-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 11:51:13-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 11:52:40-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 11:53:05-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 11:54:56-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 11:58:16-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 11:58:45-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 12:11:32-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 12:12:41-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 12:13:07-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 12:13:31-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 12:18:47-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 12:20:10-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 13:06:57-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 13:08:05-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  AND data_nrg > '2012-05-01' ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 6
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0  AND data_nrg > '2012-05-01'
+ qs :  AND data_nrg > '2012-05-01'
+ regione : centrale
+
+-----------2012-11-30 13:09:43-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  AND data_nrg > '2012-05-01' AND f3_medio < -1 ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 0
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0  AND data_nrg > '2012-05-01' AND f3_medio < -1
+ qs :  AND data_nrg > '2012-05-01' AND f3_medio < -1
+ regione : centrale
+
+-----------2012-11-30 13:16:28-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 13:16:45-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : mese
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 13:24:32-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 13:25:21-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 13:27:17-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  AND data_nrg < '2012-11-13' ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0  AND data_nrg < '2012-11-13'
+ qs :  AND data_nrg < '2012-11-13'
+ regione : centrale
+
+-----------2012-11-30 13:27:48-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  AND data_nrg < '2012-08-01' ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 100
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0  AND data_nrg < '2012-08-01'
+ qs :  AND data_nrg < '2012-08-01'
+ regione : centrale
+
+-----------2012-11-30 13:28:12-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  AND data_nrg < '2012-08-01' AND data_nrg > '2012-11-30' ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 0
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0  AND data_nrg < '2012-08-01' AND data_nrg > '2012-11-30'
+ qs :  AND data_nrg < '2012-08-01' AND data_nrg > '2012-11-30'
+ regione : centrale
+
+-----------2012-11-30 13:28:20-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  AND data_nrg < '2012-08-01' AND data_nrg > '2012-02-01' ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 5
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0  AND data_nrg < '2012-08-01' AND data_nrg > '2012-02-01'
+ qs :  AND data_nrg < '2012-08-01' AND data_nrg > '2012-02-01'
+ regione : centrale
+
+-----------2012-11-30 13:28:56-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  AND data_nrg < '2012-08-01' AND data_nrg > '2012-02-01' AND f2_medio > 90 ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 2
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0  AND data_nrg < '2012-08-01' AND data_nrg > '2012-02-01' AND f2_medio > 90
+ qs :  AND data_nrg < '2012-08-01' AND data_nrg > '2012-02-01' AND f2_medio > 90
+ regione : centrale
+
+-----------2012-11-30 13:29:29-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  AND f2_medio > 90 ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 17
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0  AND f2_medio > 90
+ qs :  AND f2_medio > 90
+ regione : centrale
+
+-----------2012-11-30 13:30:53-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 13:32:27-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 13:33:05-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 13:35:05-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+
+-----------2012-11-30 13:35:37-----------
+ queryString : SELECT * FROM energia_mensile2_centrale WHERE  0 = 0  ORDER BY anno, mese LIMIT 0,105
+ total : Array
+ count : Resource id #6
+ numrecords : 104
+ start : 0
+ limit : 105
+ sortProperty : anno
+ sortDirection : ASC
+ where :  0 = 0 
+ qs : 
+ regione : centrale
+

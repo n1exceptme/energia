@@ -14,10 +14,14 @@ Ext.define('ExtNRG.model.Energia_NRG', {
 			type: 'int'
 			},
 			{
+			name: 'data_nrg',
+			type: 'date'
+			},
+/*			{
 			name: 'data',
 			type: 'string'
 			},
-/*			{
+			{
 			name: 'f1',
 			type: 'float'
 			},

@@ -150,13 +150,12 @@ Ext.define('ExtNRG.view.nrg.Form_NRG', {
 					handler: function(){
 						Ext.getCmp('italia').body.update('<img src="/energia/fasce_mercato_elettrico/fascia_centrale.png" style="max-width:100%;max-height:100%"; />');
 						var store = Ext.getStore('Energie_NRG');
-						var grid = Ext.widget('grid_nrg');
-						grid.getStore().load({
+						//var grid = Ext.widget('grid_nrg');
+						store.load({
 							params:{
 								regione:'centrale'
 							}
 						});
-						var grid2 = Ext.getCmp('grid_nrg').getView().refresh();						
 						}
 					},
 					'-',

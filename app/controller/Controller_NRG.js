@@ -8,6 +8,8 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
     views: [
 		'chart.Pie_NRG',
 		'chart.Area_NRG',
+		'chart.Bar_NRG',
+		'chart.Radar_NRG',
         'nrg.Grid_NRG',
         'nrg.Form_NRG'
     ],
@@ -34,16 +36,16 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
             'numberfield': {
                 change: this.changeField
             },
-            'area_nrg': {
+            'bar_nrg': {
                 afterrender: function (chart,o) {
                 
                     var series = chart.series.getAt(0);
                     series.listeners = {
                         itemmouseup: function(item) {                            
                            
-                            var series = Ext.ComponentQuery.query('area_nrg')[0].series.get(0);
+                            var series = Ext.ComponentQuery.query('bar_nrg')[0].series.get(0);
                             var index = Ext.Array.indexOf(series.items, item);
-                            var selectionModel = Ext.ComponentQuery.query('grid')[0].getSelectionModel();
+                            var selectionModel = Ext.ComponentQuery.query('grid_nrg')[0].getSelectionModel();
                      
                             var selectedStoreItem = item.storeItem;
                             selectionModel.select(index);
@@ -171,7 +173,7 @@ Ext.define('ExtNRG.controller.Controller_NRG', {
     selectItem: function(storeItem) {
 
         var name = storeItem.get('pun_medio');//storeItem.get('pun_medio'),
-        var series = Ext.ComponentQuery.query('area_nrg')[0].series.get(0);
+        var series = Ext.ComponentQuery.query('bar_nrg')[0].series.get(0);
         var i, items, l;
         
         series.highlight = true;

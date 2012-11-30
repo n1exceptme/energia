@@ -22,7 +22,14 @@ Ext.define('ExtNRG.view.chart.Pie_NRG', {
         type: 'pie',
         angleField: 'Data',
         showInLegend: true,
-        // tips: {
+        tips: {
+				trackMouse: true,
+				fill: '#18428E',
+				width: 70,
+				height: 30,
+				renderer: function(storeItem, item) {
+					this.setTitle( storeItem.get('Data') + ' %');
+				}		
             // trackMouse: true,
             // width: 140,
             // height: 28,
@@ -34,7 +41,7 @@ Ext.define('ExtNRG.view.chart.Pie_NRG', {
                 // });
                 // this.setTitle(storeItem.get('Name') + ': ' + Math.round(storeItem.get('Data') / total * 100) + '%');
             // }
-        //},
+        },
 		highlight: {
 		  segment: {
 			margin: 20

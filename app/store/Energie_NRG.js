@@ -24,7 +24,9 @@ Ext.define('ExtNRG.store.Energie_NRG', {
         api: {
         	read: 'php/elencaEnergie_Mensili.php'
         },
-
+		extraParams: {
+            regione: 'centrale'
+        },
         reader: {
             type: 'json',
             root: 'energie_mesili',

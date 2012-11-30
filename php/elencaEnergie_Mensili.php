@@ -2,6 +2,13 @@
 
 include("connetti.php");
 
+$regione = '';
+
+if(isset($_REQUEST['regione'])) {
+	$regione = $_REQUEST['regione'];
+}	
+
+
 // collect request parameters
 $start  = isset($_REQUEST['start'])  ? $_REQUEST['start']  :  0;
 $limit  = isset($_REQUEST['limit'])  ? $_REQUEST['limit']  : 50;
@@ -68,7 +75,7 @@ if (is_array($filters)) {
     $where .= $qs;
 }
 
-	$queryString = "SELECT * FROM energia_mensile2 WHERE ".$where;
+	$queryString = "SELECT * FROM energia_mensile2_centrale WHERE ".$where;
 	$queryString .= " ORDER BY anno, mese";//.$sortProperty." ".$sortDirection;
 	$queryString .= " LIMIT ".$start.",".$limit;
 
@@ -78,7 +85,7 @@ if (is_array($filters)) {
 	$query = mysql_query($queryString) or die(mysql_error());
 	
 	//determina il numero di record restituiti dalla query
-	$count = mysql_query("SELECT COUNT(*) FROM energia_mensile2 WHERE ". $where );
+	$count = mysql_query("SELECT COUNT(*) FROM energia_mensile2_" . $regione . " WHERE ". $where );
 	$total = mysql_fetch_array($count);
 	$numrecords = $total[0];
 	
@@ -105,6 +112,7 @@ if (is_array($filters)) {
 	"\n sortDirection : " . $sortDirection . 
 	"\n where : " . $where . 
 	"\n qs : " . $qs . 	
+	"\n regione : " . $regione . 	
 	"\n\n";
 
 	$log = fopen ('LOG-Energia.log', 'a') or die("can't open file");
